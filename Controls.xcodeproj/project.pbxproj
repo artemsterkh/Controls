@@ -15,6 +15,7 @@
 		206AA0A61E8FF0A50094165B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 206AA0A41E8FF0A50094165B /* LaunchScreen.storyboard */; };
 		206AA0B11E8FF0A50094165B /* ControlsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 206AA0B01E8FF0A50094165B /* ControlsTests.m */; };
 		206AA0BC1E8FF0A50094165B /* ControlsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 206AA0BB1E8FF0A50094165B /* ControlsUITests.m */; };
+		206AA0CB1E8FF76D0094165B /* ColorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 206AA0CA1E8FF76D0094165B /* ColorsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		206AA0B71E8FF0A50094165B /* ControlsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ControlsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		206AA0BB1E8FF0A50094165B /* ControlsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControlsUITests.m; sourceTree = "<group>"; };
 		206AA0BD1E8FF0A50094165B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		206AA0C91E8FF76D0094165B /* ColorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorsViewController.h; sourceTree = "<group>"; };
+		206AA0CA1E8FF76D0094165B /* ColorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				206AA09A1E8FF0A50094165B /* AppDelegate.m */,
 				206AA09C1E8FF0A50094165B /* ViewController.h */,
 				206AA09D1E8FF0A50094165B /* ViewController.m */,
+				206AA0C91E8FF76D0094165B /* ColorsViewController.h */,
+				206AA0CA1E8FF76D0094165B /* ColorsViewController.m */,
 				206AA09F1E8FF0A50094165B /* Main.storyboard */,
 				206AA0A21E8FF0A50094165B /* Assets.xcassets */,
 				206AA0A41E8FF0A50094165B /* LaunchScreen.storyboard */,
@@ -278,6 +283,7 @@
 			files = (
 				206AA09E1E8FF0A50094165B /* ViewController.m in Sources */,
 				206AA09B1E8FF0A50094165B /* AppDelegate.m in Sources */,
+				206AA0CB1E8FF76D0094165B /* ColorsViewController.m in Sources */,
 				206AA0981E8FF0A50094165B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
